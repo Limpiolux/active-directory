@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  api-directory:
+    build:
+      context: ./api
+    ports:
+      - "3080:3080"
+    container_name: api-directory
+
+  app-active-directory:
+    build:
+      context: ./react
+    ports:
+      - "3081:3081"
+    container_name: app-active-directory
