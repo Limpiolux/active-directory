@@ -2,7 +2,7 @@
 
 Desarrollé una aplicación que les permite al personal del área de RRHH dar de baja de a usuarios en el Active Directory, tambien pueden ver cuáles están activos o deshabilitados en el Active Directory.
 
-Este proyecto está compuesto por el Front End, hecho con React, Tailwind, Flowbite y NextUI, y tambien por el Back End, hecho con Nodejs y librerias como Express y Active Directory.
+Este proyecto está compuesto por el Front End, hecho con React, Tailwind, Flowbite y NextUI, y tambien por el Back End, hecho con Nodejs y librerias como Express y Active Directory. Tambien usamos Power Automate para enviar correos a los administradores cuando se da de baja un usuario.
 
 ## Endpoints
 
